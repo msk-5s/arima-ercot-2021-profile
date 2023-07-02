@@ -1,0 +1,10 @@
+nptyping==2.4.1
+numpy==1.23.5
+pandas==1.5.2
+pyarrow==10.0.1
+pylint==2.15.7
+pytype==2022.11.29
+rich==12.6.0
+scipy==1.9.3
+statsmodels==0.13.5
+wget==3.2

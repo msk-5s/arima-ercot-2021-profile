@@ -1,0 +1,11 @@
+{
+    "profile_class": "BUSOGFWD_WEST",
+    "orders": {
+        "ar": 0,
+        "diff": 1,
+        "ma": 0
+    },
+    "parameters": {
+        "sigma2": 1.7093701432074727e-11
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "profile_class": "BUSHILF_FWEST",
+    "orders": {
+        "ar": 1,
+        "diff": 1,
+        "ma": 0
+    },
+    "parameters": {
+        "ar.L1": 0.03732999946265,
+        "sigma2": 0.008691278294216924
+    }
+}

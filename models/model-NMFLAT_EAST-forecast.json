@@ -1,0 +1,11 @@
+{
+    "profile_class": "NMFLAT_EAST",
+    "orders": {
+        "ar": 0,
+        "diff": 1,
+        "ma": 0
+    },
+    "parameters": {
+        "sigma2": 0.00013992004560749708
+    }
+}
