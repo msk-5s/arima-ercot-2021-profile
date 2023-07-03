@@ -19,6 +19,7 @@ Model training is seperated out from the profile generation so that models can b
 distributed fashion (i.e. array job).
 """
 
+import gc
 import itertools
 import json
 import os
@@ -133,6 +134,10 @@ def main(): # pylint: disable=too-many-locals
         }
 
         json.dump(obj=json_dict, fp=handle, indent=4)
+
+    # Force garbage collection. Running extensive simulation cases for large groups can cause the
+    # running hardware to go out of memory (this can cause results to be lost).
+    gc.collect()
 
 #---------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------
