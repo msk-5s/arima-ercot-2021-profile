@@ -2,7 +2,7 @@
 
 This repository contains the source code for generating clean (no missing data) ERCOT 2021 load profiles. ERCOT maintains load profiles for 248 different load classes that might have some combination of distributed energy resources (DER) (i.e. solar, wind, etc.) across different weather zones within the state of Texas. The profiles are sampled at 15-minute intervals over the year giving a total of 35040 timesteps per profile (96 timesteps per day). Unfortunately, each profile has an hour (4 timesteps) of missing data from '2021-03-14 23:00:0' to '2021-03-14 23:45:0'. An ensemble of a forecasting and backcasting ARIMA model is used to impute these missing values.
 
-These load profiles are used in the [arima-ercot-2021-opendss](https://github.com/msk-5s/arima-ercot-2021-opendss) repository to generate the **arima-ercot-2021** data suite.
+These load profiles are used in the [arima-ercot-2021-opendss](https://github.com/msk-5s/arima-ercot-2021-opendss) repository to generate the [`arima-ercot-2021`](https://www.kaggle.com/datasets/msk5sdata/arima-ercot-2021) data suite.
 
 The generated profiles will be in the [Apache Arrow Feather](https://arrow.apache.org/docs/python/feather.html) format.
 
